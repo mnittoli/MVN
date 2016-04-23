@@ -1,22 +1,28 @@
 .site-header {
 	background: #222 url('http://www.crystalrockstar.com/wp-content/uploads/2013/06/home-page-background.jpg') center center no-repeat;
+	transition: 30s all ease;
 	background-size: cover;
 	height: 800px;
 	text-align: center;
-	display: flex;
-	align-items: center;
+
+	&:hover{
+		background: #222 url('http://www.crystalrockstar.com/wp-content/uploads/2013/06/home-page-background.jpg') 100% 100% no-repeat;
+
+	}
 }
 .site-title {
-	border: 1px solid #fff;
+	height: 90px;
 	font-family: $font__main;
 	font-size: 100px;
 	font-weight: bold;
 	color: white;
-	line-height: 26px;
+	line-height: 1.5;
 	text-align: center;
+
 
 	a {
 		color: white;
+		letter-spacing: 10px;
 
 		&:hover {
 			text-decoration: none;
@@ -26,14 +32,20 @@
 } 
 
 .site-description {
-	font-family: $font__main;
-	font-size: 22px;
-	font-weight: bold;
+	font-family: $font_condensed;
+	font-size: 18px;
+	font-weight: normal;
 	color: white;
-	line-height: 26px;
+	line-height: 1.5;
+	letter-spacing: 1.8px;
+
 }
 
 .site-branding {
-	width: 100%;
+	width: 220px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 2px;
+	border: solid 1px #fff;
  
 }

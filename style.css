@@ -45,6 +45,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Fonts
 --------------------------------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Lato);
 @font-face {
   font-family: Helvetica;
   src: url(BebasNeueRegular.otf); }
@@ -730,33 +731,40 @@ object {
 --------------------------------------------------------------*/
 .site-header {
   background: #222 url("http://www.crystalrockstar.com/wp-content/uploads/2013/06/home-page-background.jpg") center center no-repeat;
+  transition: 30s all ease;
   background-size: cover;
   height: 800px;
-  text-align: center;
-  display: flex;
-  align-items: center; }
+  text-align: center; }
+  .site-header:hover {
+    background: #222 url("http://www.crystalrockstar.com/wp-content/uploads/2013/06/home-page-background.jpg") 100% 100% no-repeat; }
 
 .site-title {
-  border: 1px solid #fff;
+  height: 90px;
   font-family: Helvetica, sans-serif;
   font-size: 100px;
   font-weight: bold;
   color: white;
-  line-height: 26px;
+  line-height: 1.5;
   text-align: center; }
   .site-title a {
-    color: white; }
+    color: white;
+    letter-spacing: 10px; }
     .site-title a:hover {
       text-decoration: none; }
 
 .site-description {
-  font-family: Helvetica, sans-serif;
-  font-size: 22px;
-  font-weight: bold;
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: normal;
   color: white;
-  line-height: 26px; }
+  line-height: 1.5;
+  letter-spacing: 1.8px; }
 
 .site-branding {
-  width: 100%; }
+  width: 220px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 2px;
+  border: solid 1px #fff; }
 
 /*# sourceMappingURL=style.css.map */
