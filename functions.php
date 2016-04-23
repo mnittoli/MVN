@@ -156,6 +156,8 @@ require get_template_directory() . '/inc/jetpack.php';
  * Bootstrap 4 CDN Links
  */
 function reg_script() {
+	wp_enqueue_script( 'jquery' , 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js' );
+	wp_enqueue_script( 'tether' , 'https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.1/js/tether.js' );
 	wp_enqueue_style( 'bootstrapstyle' , 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.css' );
 	wp_enqueue_script( 'bootstrapscript' , 'https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js' );
 }
