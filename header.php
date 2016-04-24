@@ -41,6 +41,21 @@
 			endif; ?>
 		</div><!-- end .site-branding -->
 
+		<div class="header-text">
+			<h2> <?php echo get_option('maintext'); ?></h2>
+			<p><?php echo get_option('maindescription'); ?></p>
+			<button type="button" class="btn-custom"><?php echo get_option('button1'); ?></button>
+			<button type="button" class="btn-custom"><?php echo get_option('button2'); ?></button>
+		</div>
+
+		<div id="mice">
+			<a href="#scroll">
+				<div class="mouse">
+					<div class="wheel"></div>
+				</div>
+			</a>
+		</div>
+
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'mvn' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
@@ -48,3 +63,4 @@
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
+

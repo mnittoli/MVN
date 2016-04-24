@@ -1,8 +1,13 @@
+html, body {
+	height: 100%;
+}
+
+
 .site-header {
 	background: #222 url('http://www.crystalrockstar.com/wp-content/uploads/2013/06/home-page-background.jpg') center center no-repeat;
 	transition: all 17s ease;
 	background-size: 100% 100%;
-	height: 800px;
+	height: 100%;
 	text-align: center;
 
 	&:hover{
@@ -10,6 +15,7 @@
 
 	}
 }
+
 .site-title {
 	height: 90px;
 	font-family: $font__main;
@@ -19,7 +25,6 @@
 	line-height: 1.5;
 	text-align: center;
 
-
 	a {
 		color: white;
 		letter-spacing: 10px;
@@ -28,7 +33,6 @@
 			text-decoration: none;
 			color: white;
 		}
-
 	}
 } 
 
@@ -39,18 +43,97 @@
 	color: white;
 	line-height: 1.5;
 	letter-spacing: 1.8px;
-
 }
 
 .site-branding {
 	width: 220px;
 	margin: auto;
-	margin-top: 100px;
+	margin-top: 80px;
 	padding: 2px;
 	border: solid 1px #fff;
 
 	&:hover {
 
 	}
- 
+}
+
+.header-text {
+	
+	color: white;
+	padding-top: 130px;
+
+	h2 {
+		font-family: $font__main;
+		font-size: 78px;
+		font-weight: bold;
+		letter-spacing: 3px;
+		padding-bottom: 10px;
+	}
+
+	p {
+		font-family: $font_italic;
+		font-size: 36px;
+
+		width: 800px;
+		margin: auto;
+	
+		padding-bottom: 100px;
+	}
+
+	button {
+		padding: 10px 50px 10px 50px;
+		margin: 5px;
+
+	}
+}
+
+.btn-custom {
+	font-family: $font_condensed;
+	font-size: 22px;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: white;
+	background: transparent;
+	 text-shadow: 1px 1px #000000;
+
+	 &:hover {
+	 	background: rgba(255, 255, 255, 0.2);
+	 }
+}
+
+#mice {
+    margin: 0 auto;
+    padding-bottom: 8em;
+    padding-top: 5.5em;
+    text-align: center;
+    width: 20px;
+    height: 9px;
+
+    a {
+    	color: #337ab7;
+    	text-decoration: none;
+	}
+}
+
+.mouse {
+    height: 30px;
+    width: 22px;
+    border-radius: 10px;
+    transform: none;
+    border: 2px solid white;
+    top: 170px;
+}
+
+.wheel {
+    -webkit-animation: mouse-wheel 1.2s ease infinite;
+    -moz-animation: mouse-wheel 1.2s ease infinite;
+}
+
+.wheel {
+    height: 5px;
+    width: 2px;
+    display: block;
+    margin: 7px auto;
+    background: white;
+    position: relative;
 }
