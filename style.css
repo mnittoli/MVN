@@ -736,7 +736,7 @@ html, body, header {
 
 .site-header {
   background: #222 url("http://www.crystalrockstar.com/wp-content/uploads/2013/06/home-page-background.jpg") center center no-repeat;
-  transition: all 17s ease;
+  transition: all 22s ease;
   background-size: 100% 100%;
   height: 100%;
   text-align: center; }
@@ -893,10 +893,55 @@ body {
   -ms-animation: bounce 2s infinite;
   animation: bounce 2s infinite; }
 
+.gutterless {
+  padding-left: 0px !important;
+  padding-right: 0px !important; }
+
 .featured-post {
-  height: 530px; }
+  height: 530px;
+  display: block; }
+
+.featured-post-small {
+  height: 200px;
+  display: block; }
 
 #featured-post-1 {
-  background-image: url("http://placehold.it/500x500"); }
+  background-image: url("https://i.ytimg.com/vi/q7o7R5BgWDY/maxresdefault.jpg");
+  background-sze: cover; }
+
+#featured-post-2 {
+  background-image: url("https://massacademy.files.wordpress.com/2013/12/sun-heats-earth-on-one-hemisphere-only.jpg");
+  background-sze: cover; }
+
+#featured-post-3 {
+  background-image: url("http://media.salon.com/2013/09/moon.jpg");
+  background-sze: cover; }
+
+#featured-post-4 {
+  padding: 30px 25px;
+  background-color: blue; }
+  #featured-post-4 h3 {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bold; }
+  #featured-post-4 p {
+    padding: 5px 0px;
+    color: white;
+    font-family: "Lato";
+    font-size: 22px;
+    font-weight: normal; }
+
+.seperator {
+  width: 70px;
+  border-top: 3px solid white;
+  padding-bottom: 13px; }
+
+.arrow {
+  width: 20px;
+  height: 50px;
+  position: absolute;
+  right: 10px;
+  top: 10px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,8 +1,71 @@
+
+.gutterless{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
 .featured-post {
 	height: 530px;
+	display: block;
+}
+
+.featured-post-small {
+	height: 200px;
+	display: block;
 }
 
 #featured-post-1 {
-	background-image: url("http://placehold.it/500x500");
+	background-image: url("https://i.ytimg.com/vi/q7o7R5BgWDY/maxresdefault.jpg");
+	background-sze: cover;
 
 }
+
+#featured-post-2 {
+	background-image: url("https://massacademy.files.wordpress.com/2013/12/sun-heats-earth-on-one-hemisphere-only.jpg");
+	background-sze: cover;
+
+}
+
+#featured-post-3 {
+	background-image: url("http://media.salon.com/2013/09/moon.jpg");
+	background-sze: cover;
+
+}
+
+#featured-post-4 {
+	padding: 30px 25px;
+	background-color: blue;
+
+	h3 {
+		color: white;
+		font-family: $font__main;
+		font-size: 36px;
+		font-weight: bold;
+	}
+
+	p{
+		padding: 5px 0px;
+		color: white;
+		font-family: $font_condensed;
+		font-size: 22px;
+		font-weight: normal;
+	}
+
+}
+
+.seperator {
+	width: 70px;
+	border-top: 3px solid white;
+	padding-bottom: 13px;
+}
+
+.arrow {
+	width: 20px;
+	height: 50px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+
+
