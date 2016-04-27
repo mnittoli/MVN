@@ -30,24 +30,27 @@ get_header(); ?>
 			?>
 
 
-			<div class="container-fluid gutterless">
+			<div class="container-fluid gutterless"> <!-- content section -->
 				<div class="row">
+
 					<div class="col-md-6 gutterless">
-						<a href="#" class="featured-post" id="featured-post-1"><div>
-							
-						</div></a>
+						<a href="#" class="featured-post" id="featured-post-1">
+							<div></div>
+						</a>
 					</div>
 
 					<div class="col-md-6 gutterless">
-						<a href="#" class="featured-post" id="featured-post-2"><div>
-							
-						</div></a>
+						<a href="#" class="featured-post" id="featured-post-2">
+							<div></div>
+						</a>
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="col-md-8">
+
 						<div class="row">
+
 							<div class="col-md-6 gutterless">
 								<a href="#" class="featured-post-small" id="featured-post-3">
 								</a>
@@ -57,17 +60,32 @@ get_header(); ?>
 								<a href="#" class="featured-post-small" id="featured-post-4">
 									<div>
 										<div class="seperator"></div>
-										<div class="arrow">
-											<a href="#"><img src="img/arrow.png"></a>
+										<!-- <div class="arrow-img">
+											<a href="#"><img src="<?php echo(get_bloginfo('template_directory')); ?>/img/arrow.png"></a>
+										</div> -->
+										<div>
+											<h3>My Portfolio</h3>
+											<p>Focused on digital marketing (Websites, SEO, Social Media and E-mailers).</p>
 										</div>
-										<h3>Portfolio</h3>
-										<p>Focused on digital marketing (Websites, SEO, Social Media and E-mailers).</p>
 									</div>
 								</a>
 							</div>
+
+						</div> <!-- end row -->
+
+						<div class="row">
+							<div class="col-md-12 gutterless"><a href="" class="featured-post-small" id="featured-post-5"></a></div>
 						</div>
+
 					</div>	
 				</div>
+
+				<div class="row">
+					<div class="col-md-4 gutterless">
+						<a href="#" class="featured-post" id="tripple-post">
+							<div></div>
+						</a>
+					</div>
 
 
 			</div>
