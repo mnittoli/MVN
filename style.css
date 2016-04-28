@@ -905,6 +905,14 @@ body {
   height: 200px;
   display: block; }
 
+.featured-post-large {
+  height: 400px;
+  display: block; }
+
+.featured-post-triple {
+  height: 400px;
+  display: block; }
+
 #featured-post-1 {
   background-image: url("https://i.ytimg.com/vi/q7o7R5BgWDY/maxresdefault.jpg");
   background-sze: cover; }
@@ -935,6 +943,85 @@ body {
 #featured-post-5 {
   background-image: url("http://images.nationalgeographic.com/wpf/media-live/photos/000/138/overrides/save-the-ocean-tips_13821_600x450.jpg");
   background-size: cover; }
+
+#featured-post-6 {
+  background-image: url("http://assets.climatecentral.org/images/made/12_5_14_upton_ocean_sunset_San_Diego_720_480_s_c1_c_c.jpg");
+  background-size: cover; }
+
+#featured-post-7 {
+  padding: 30px 25px;
+  background-color: #F16529; }
+  #featured-post-7 h3 {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bold; }
+  #featured-post-7 p {
+    padding: 5px 0px;
+    color: white;
+    font-family: "Lato";
+    font-size: 22px;
+    font-weight: normal; }
+
+#featured-post-8 {
+  background-image: url("http://cdn.pastemagazine.com/www/articles/Screen%20Shot%202015-12-07%20at%2012.30.00%20PM.png");
+  background-size: cover;
+  background-position: center; }
+
+#featured-post-9 {
+  padding: 30px 25px;
+  background-color: #3F3F3F; }
+  #featured-post-9 h3 {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bold; }
+  #featured-post-9 p {
+    padding: 5px 0px;
+    color: white;
+    font-family: "Lato";
+    font-size: 22px;
+    font-weight: normal; }
+
+#featured-post-10 {
+  background-image: url("http://images.csmonitor.com/csmarchives/2010/06/06-02-volcano.gif?alias=standard_600x400");
+  background-size: cover;
+  background-position: center; }
+
+#featured-post-11 {
+  padding: 30px 25px;
+  background-color: white; }
+  #featured-post-11 h3 {
+    color: #3F3F3F;
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bold; }
+  #featured-post-11 p {
+    padding: 5px 0px;
+    color: #3F3F3F;
+    font-family: "Lato";
+    font-size: 22px;
+    font-weight: normal; }
+
+#featured-post-12 {
+  background-image: url("http://s.hswstatic.com/gif/lightning-gallery-12.jpg");
+  background-size: cover;
+  background-position: center; }
+
+#featured-post-13 {
+  background-image: url("http://i.telegraph.co.uk/multimedia/archive/02461/lightning_2461074b.jpg");
+  background-size: cover;
+  background-position: center; }
+
+#featured-post-14 {
+  background-image: url("http://brainberries.co/wp-content/uploads/2015/10/9-Bizarre-Underwater-Discoveries-1.jpg");
+  background-size: cover;
+  background-position: center; }
+
+#featured-post-15 {
+  background-image: url("http://guardiandivers.com/images/bgimage.jpg");
+  background-size: cover;
+  background-position: center; }
 
 .seperator {
   width: 50px;

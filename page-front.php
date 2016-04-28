@@ -31,7 +31,7 @@ get_header(); ?>
 
 
 			<div class="container-fluid gutterless"> <!-- content section -->
-				<div class="row">
+				<div class="row"> <!-- 1st row -->
 
 					<div class="col-md-6 gutterless">
 						<a href="#" class="featured-post" id="featured-post-1">
@@ -44,9 +44,9 @@ get_header(); ?>
 							<div></div>
 						</a>
 					</div>
-				</div>
+				</div><!-- end 1st row -->
 
-				<div class="row">
+				<div class="row"><!-- 2nd row -->
 					<div class="col-md-8">
 
 						<div class="row">
@@ -71,14 +71,148 @@ get_header(); ?>
 								</a>
 							</div>
 
-						</div> <!-- end row -->
+						</div>
 
 						<div class="row">
 							<div class="col-md-12 gutterless"><a href="" class="featured-post-small" id="featured-post-5"></a></div>
 						</div>
 
 					</div>	
-				</div>
+
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-md-12 gutterless">
+								<a href="#" class="featured-post-large" id="featured-post-6">
+								</a>
+							</div>
+						</div>
+					</div> <!-- end col-md-4 -->
+
+				</div><!-- end 2nd row -->
+
+				<div class="row"><!-- 3rd row -->
+					<div class="col-md-4 gutterless">
+								<a href="#" class="featured-post-triple" id="featured-post-7">
+									<div>
+										<div class="seperator"></div>
+										<!-- <div class="arrow-img">
+											<a href="#"><img src="<?php echo(get_bloginfo('template_directory')); ?>/img/arrow.png"></a>
+										</div> -->
+										<div>
+											<h3>About Me</h3>
+											<p>Focused on digital marketing (Websites, SEO, Social Media and E-mailers). Focused on digital marketing Focused on digital. Focused on digital marketing Focused</p>
+										</div>
+									</div>
+								</a>
+					</div>
+
+					<div class="col-md-4 gutterless">
+						<a href="#" class="featured-post-large" id="featured-post-8">
+						</a>
+					</div>
+
+					<div class="col-md-4 gutterless">
+						<a href="#" class="featured-post-triple" id="featured-post-9">
+									<div>
+										<div class="seperator"></div>
+										<!-- <div class="arrow-img">
+											<a href="#"><img src="<?php echo(get_bloginfo('template_directory')); ?>/img/arrow.png"></a>
+										</div> -->
+										<div>
+											<h3>About Me</h3>
+											<p>Focused on digital marketing (Websites, SEO, Social Media and E-mailers). Focused on digital marketing Focused on digital. Focused on digital marketing Focused</p>
+										</div>
+									</div>
+								</a>
+					</div>
+				</div><!-- end 3rd row -->
+
+
+
+
+
+
+
+				<div class="row"><!-- 4th row -->
+
+
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-md-12 gutterless">
+								<a href="#" class="featured-post-large" id="featured-post-10">
+								</a>
+							</div>
+						</div>
+					</div> <!-- end col-md-4 -->
+
+
+
+					<div class="col-md-8">
+
+					<div class="row">
+							<div class="col-md-12 gutterless"><a href="" class="featured-post-small" id="featured-post-13"></a></div>
+						</div>
+
+						<div class="row">
+
+							
+
+							<div class="col-md-6 gutterless">
+								<a href="#" class="featured-post-small" id="featured-post-11">
+									<div>
+										<div class="seperator"></div>
+										<!-- <div class="arrow-img">
+											<a href="#"><img src="<?php echo(get_bloginfo('template_directory')); ?>/img/arrow.png"></a>
+										</div> -->
+										<div>
+											<h3>My Portfolio</h3>
+											<p>Focused on digital marketing (Websites, SEO, Social Media and E-mailers).</p>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="col-md-6 gutterless">
+								<a href="#" class="featured-post-small" id="featured-post-12">
+								</a>
+							</div>
+
+						</div>
+
+						
+
+					</div>	
+
+					
+
+				</div><!-- end 4th row -->
+
+
+
+
+				<div class="row"> <!-- 5th row -->
+
+					<div class="col-md-6 gutterless">
+						<a href="#" class="featured-post" id="featured-post-14">
+							<div></div>
+						</a>
+					</div>
+
+					<div class="col-md-6 gutterless">
+						<a href="#" class="featured-post" id="featured-post-15">
+							<div></div>
+						</a>
+					</div>
+				</div><!-- end 5th row -->
+
+
+
+
+
+
+
+
+
 
 				<div class="row">
 					<div class="col-md-4 gutterless">
@@ -86,7 +220,7 @@ get_header(); ?>
 							<div></div>
 						</a>
 					</div>
-
+				</div>
 
 			</div>
 
