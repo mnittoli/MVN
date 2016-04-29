@@ -25,6 +25,7 @@
 	<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'mvn' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
+
 		<div class="site-branding">
 			<?php
 			if ( is_front_page() && is_home() ) : ?>
@@ -41,18 +42,25 @@
 			endif; ?>
 		</div><!-- end .site-branding -->
 
+		<div class="hamburger-icon">
+			<i class="fa fa-2x fa-bars" aria-hidden="true"></i>
+		</div> <!-- end hamburger -->
+
 		<div class="header-text">
 			<h2> <?php echo get_option('maintext'); ?></h2>
 			<p><?php echo get_option('maindescription'); ?></p>
 			<button type="button" class="btn-custom"><?php echo get_option('button1'); ?></button>
 			<button type="button" class="btn-custom"><?php echo get_option('button2'); ?></button>
 		</div>
-
-		<div class="encircle bounce animated">
-			<div class="arrow">
+		<a href="#featured-post-1">
+			<div class="encircle bounce animated">
+				
+					<div class="arrow">
+					</div>
+				
 			</div>
-		</div>
-
+		</a>
+		
 		
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">

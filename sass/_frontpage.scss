@@ -4,41 +4,94 @@
 	padding-right: 0px !important;
 }
 
+.text-tile:hover{
+	text-decoration: none;
+}
+
 .featured-post {
 	height: 530px;
 	display: block;
+	background-size:100%;
+  	transition: 3s all ease;
+  	background-size:  auto 100%;
+  	background-position: center;
+  	background-color: rgba(0,0,0,0);
+  	background-blend-mode: overlay;
+}
+
+.featured-post:hover {
+	background-size: auto 125%;
+	background-color: rgba(0,0,0,0.5);
+  	background-blend-mode: overlay;
 }
 
 .featured-post-small {
 	height: 200px;
 	display: block;
+	background-size:100%;
+  	transition: 3s all ease;
+  	background-size: 100% auto ;
+  	background-position: center;
+  	background-color: rgba(0,0,0,0);
+  	background-blend-mode: overlay;
 }
+
+.featured-post-small:hover {
+	background-size: 125% auto ;
+	background-color: rgba(0,0,0,0.5);
+  	background-blend-mode: overlay;
+}
+
 
 .featured-post-large{
 	height: 400px;
 	display: block;
+	background-size:100%;
+  	transition: 3s all ease;
+  	background-size: auto 100%;
+  	background-position: center;
+  	background-color: rgba(0,0,0,0);
+  	background-blend-mode: overlay;
+}
+
+.featured-post-large:hover {
+	background-size: auto 125%;
+	background-color: rgba(0,0,0,0.5);
+  	background-blend-mode: overlay;
 }
 
 .featured-post-triple{
 	height: 400px;
 	display: block;
+	background-size:100%;
+  	transition: 3s all ease;
+  	background-size: auto 100%;
+  	background-position: center;
+  	background-color: rgba(0,0,0,0);
+  	background-blend-mode: overlay;
+}
+
+.featured-post-triple:hover {
+	background-size: auto 125%;
+	background-color: rgba(0,0,0,0.5);
+  	background-blend-mode: overlay;
 }
 
 #featured-post-1 {
 	background-image: url("https://i.ytimg.com/vi/q7o7R5BgWDY/maxresdefault.jpg");
-	background-sze: cover;
+
 
 }
 
 #featured-post-2 {
 	background-image: url("https://massacademy.files.wordpress.com/2013/12/sun-heats-earth-on-one-hemisphere-only.jpg");
-	background-sze: cover;
+
 
 }
 
 #featured-post-3 {
 	background-image: url("http://media.salon.com/2013/09/moon.jpg");
-	background-sze: cover;
+
 
 }
 
@@ -62,16 +115,20 @@
 		font-weight: normal;
 	}
 
+	&:hover h3, p{
+		text-decoration: none;
+	}
+
 }
 
 #featured-post-5 {
 	background-image: url("http://images.nationalgeographic.com/wpf/media-live/photos/000/138/overrides/save-the-ocean-tips_13821_600x450.jpg");
-	background-size: cover;
+
 }
 
 #featured-post-6 {
 	background-image: url("http://assets.climatecentral.org/images/made/12_5_14_upton_ocean_sunset_San_Diego_720_480_s_c1_c_c.jpg");
-	background-size: cover;
+
 }
 
 #featured-post-7 {
@@ -97,8 +154,7 @@
 
 #featured-post-8 {
 	background-image: url("http://cdn.pastemagazine.com/www/articles/Screen%20Shot%202015-12-07%20at%2012.30.00%20PM.png");
-	background-size: cover;
-	background-position: center;
+
 }
 
 #featured-post-9, {
@@ -124,8 +180,7 @@
 
 #featured-post-10 {
 	background-image: url("http://images.csmonitor.com/csmarchives/2010/06/06-02-volcano.gif?alias=standard_600x400");
-	background-size: cover;
-	background-position: center;
+
 }
 
 #featured-post-11, {
@@ -151,26 +206,22 @@
 
 #featured-post-12 {
 	background-image: url("http://s.hswstatic.com/gif/lightning-gallery-12.jpg");
-	background-size: cover;
-	background-position: center;
+
 }
 
 #featured-post-13 {
 	background-image: url("http://i.telegraph.co.uk/multimedia/archive/02461/lightning_2461074b.jpg");
-	background-size: cover;
-	background-position: center;
+
 }
 
 #featured-post-14 {
 	background-image: url("http://brainberries.co/wp-content/uploads/2015/10/9-Bizarre-Underwater-Discoveries-1.jpg");
-	background-size: cover;
-	background-position: center;
+
 }
 
 #featured-post-15 {
 	background-image: url("http://guardiandivers.com/images/bgimage.jpg");
-	background-size: cover;
-	background-position: center;
+
 }
 
 

@@ -57,7 +57,7 @@ get_header(); ?>
 							</div>
 
 							<div class="col-md-6 gutterless">
-								<a href="#" class="featured-post-small" id="featured-post-4">
+								<a href="#" class="featured-post-small text-tile" id="featured-post-4">
 									<div>
 										<div class="seperator"></div>
 										<!-- <div class="arrow-img">
@@ -92,7 +92,7 @@ get_header(); ?>
 
 				<div class="row"><!-- 3rd row -->
 					<div class="col-md-4 gutterless">
-								<a href="#" class="featured-post-triple" id="featured-post-7">
+								<a href="#" class="featured-post-triple text-tile" id="featured-post-7">
 									<div>
 										<div class="seperator"></div>
 										<!-- <div class="arrow-img">
@@ -112,7 +112,7 @@ get_header(); ?>
 					</div>
 
 					<div class="col-md-4 gutterless">
-						<a href="#" class="featured-post-triple" id="featured-post-9">
+						<a href="#" class="featured-post-triple text-tile" id="featured-post-9">
 									<div>
 										<div class="seperator"></div>
 										<!-- <div class="arrow-img">
@@ -158,7 +158,7 @@ get_header(); ?>
 							
 
 							<div class="col-md-6 gutterless">
-								<a href="#" class="featured-post-small" id="featured-post-11">
+								<a href="#" class="featured-post-small text-tile" id="featured-post-11">
 									<div>
 										<div class="seperator"></div>
 										<!-- <div class="arrow-img">

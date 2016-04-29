@@ -16,6 +16,17 @@ html, body, header {
 	}
 }
 
+.hamburger-icon {
+  color: white;
+  width: 100px;
+  margin-top: -115px;
+
+  .fa:after {
+  color: white;
+  height: 150px;
+  }
+} 
+
 .site-title {
 	height: 90px;
 	font-family: $font__main;
@@ -60,7 +71,7 @@ html, body, header {
 .header-text {
 	
 	color: white;
-	padding-top: 130px;
+	padding-top: 215px;
 
 	h2 {
 		font-family: $font__main;
