@@ -26,6 +26,24 @@
 
 	<script>	
 		jQuery(function() {
+			var isMenuOpen = false;
+		jQuery ('.hamburger-icon').click(function() {
+                      if (isMenuOpen) {
+                                      jQuery('.header-text, .site-branding').show();
+                                      jQuery('.header-menu').hide('slow');
+
+		} else {
+                var headerHeight = jQuery('#masterhead').css('height')
+                alert(headerHeight);
+                jQuery('.header-text,.site-branding').hide();
+                                jQuery('.header-menu').show('slow');
+		}
+
+            });
+
+
+
+
 		  jQuery('a[href*="#"]:not([href="#"])').click(function() {
 		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 		      var target = jQuery(this.hash);

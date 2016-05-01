@@ -782,6 +782,7 @@ html, body, header {
   border: solid 1px #fff; }
 
 .header-text {
+  display: none;
   color: white;
   padding-top: 215px; }
   .header-text h2 {
@@ -1072,6 +1073,9 @@ body {
   width: 20px;
   height: 50px;
   float: right;
-  display: inline-block; }
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  right: 30px; }
 
 /*# sourceMappingURL=style.css.map */

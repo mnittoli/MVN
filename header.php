@@ -46,6 +46,18 @@
 			<i class="fa fa-2x fa-bars" aria-hidden="true"></i>
 		</div> <!-- end hamburger -->
 
+		<div class="header-menu">			
+			<div class="navbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Menu Item 1</a></li>
+					<li class="active"><a href="#">Menu Item 2</a></li>
+					<li class="active"><a href="#">Menu Item 3</a></li>
+					<li class="active"><a href="#">Menu Item 4</a></li>
+					<li class="active"><a href="#">Menu Item 4</a></li>			
+				</ul>
+			</div>
+		</div><!-- end header-menu -->
+
 		<div class="header-text">
 			<h2> <?php echo get_option('maintext'); ?></h2>
 			<p><?php echo get_option('maindescription'); ?></p>

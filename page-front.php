@@ -60,9 +60,11 @@ get_header(); ?>
 								<a href="#" class="featured-post-small text-tile" id="featured-post-4">
 									<div>
 										<div class="seperator"></div>
-										<!-- <div class="arrow-img">
-											<a href="#"><img src="<?php echo(get_bloginfo('template_directory')); ?>/img/arrow.png"></a>
-										</div> -->
+
+										
+										<img class="arrow-img" src="<?php echo(get_bloginfo('template_directory')); ?>/img/arrow.png">
+										
+
 										<div>
 											<h3>My Portfolio</h3>
 											<p>Focused on digital marketing (Websites, SEO, Social Media and E-mailers).</p>
@@ -95,9 +97,9 @@ get_header(); ?>
 								<a href="#" class="featured-post-triple text-tile" id="featured-post-7">
 									<div>
 										<div class="seperator"></div>
-										<!-- <div class="arrow-img">
-											<a href="#"><img src="<?php echo(get_bloginfo('template_directory')); ?>/img/arrow.png"></a>
-										</div> -->
+										
+										<img class="arrow-img" src="<?php echo(get_bloginfo('template_directory')); ?>/img/arrow.png">
+
 										<div>
 											<h3>About Me</h3>
 											<p>Focused on digital marketing (Websites, SEO, Social Media and E-mailers). Focused on digital marketing Focused on digital. Focused on digital marketing Focused</p>
@@ -115,9 +117,9 @@ get_header(); ?>
 						<a href="#" class="featured-post-triple text-tile" id="featured-post-9">
 									<div>
 										<div class="seperator"></div>
-										<!-- <div class="arrow-img">
-											<a href="#"><img src="<?php echo(get_bloginfo('template_directory')); ?>/img/arrow.png"></a>
-										</div> -->
+										
+										<img class="arrow-img" src="<?php echo(get_bloginfo('template_directory')); ?>/img/arrow.png">
+
 										<div>
 											<h3>About Me</h3>
 											<p>Focused on digital marketing (Websites, SEO, Social Media and E-mailers). Focused on digital marketing Focused on digital. Focused on digital marketing Focused</p>
@@ -161,9 +163,9 @@ get_header(); ?>
 								<a href="#" class="featured-post-small text-tile" id="featured-post-11">
 									<div>
 										<div class="seperator"></div>
-										<!-- <div class="arrow-img">
-											<a href="#"><img src="<?php echo(get_bloginfo('template_directory')); ?>/img/arrow.png"></a>
-										</div> -->
+										
+										<img class="arrow-img" src="<?php echo(get_bloginfo('template_directory')); ?>/img/arrow-dark.png">
+
 										<div>
 											<h3>My Portfolio</h3>
 											<p>Focused on digital marketing (Websites, SEO, Social Media and E-mailers).</p>
